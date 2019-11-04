@@ -47,7 +47,6 @@ class WebConnect(p: MainActivity) : AsyncTask<URL, Void, String>() {
             conexion?.requestMethod = "POST"
             conexion?.setRequestProperty("Content-Type", "application/x-www-form-urlencoded")
 
-
             var salida = BufferedOutputStream(conexion?.outputStream)
 
             salida.write(cadenaEnvioPOST.toByteArray())

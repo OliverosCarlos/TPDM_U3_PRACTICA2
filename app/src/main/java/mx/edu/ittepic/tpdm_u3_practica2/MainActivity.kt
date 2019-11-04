@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             try{
 
                 var conexionWeb = WebConnect(this)
-                Toast.makeText(this, conexionWeb.get(),Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "click",Toast.LENGTH_SHORT).show()
                 conexionWeb.execute(URL("http://mysterious-sierra-80681.herokuapp.com/consultagenerica.php"))
 
             }catch ( err: Exception  ){

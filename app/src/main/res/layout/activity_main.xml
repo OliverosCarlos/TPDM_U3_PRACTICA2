@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp">
     <EditText
         android:id="@+id/descripcion"
         android:layout_width="match_parent"
@@ -47,13 +48,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CARGAR"
+        android:text="Mostrar"
         android:id="@+id/cargar"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sin resultado"
+        android:text="..."
         android:layout_marginTop="10dp"
         android:id="@+id/consulta"/>
 </LinearLayout>
