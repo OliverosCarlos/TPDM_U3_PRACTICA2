@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="descripcion"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/monto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="monto"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/fechaVencimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fecha de vencimiento"
+        android:inputType="date"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/pagado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pagado"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARGAR"
+        android:id="@+id/cargar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sin resultado"
+        android:layout_marginTop="10dp"
+        android:id="@+id/consulta"/>
+</LinearLayout>
